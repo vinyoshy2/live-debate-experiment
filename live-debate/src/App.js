@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Consent from "./components/consent/consent.js"
+import Consent from "./components/consent/consent.js";
+import Instructions from "./components/instructions/instructions.js";
 import {
     BrowserRouter as Router,
     Switch,
@@ -15,6 +16,9 @@ export default function App() {
 	    <Switch>
 	        <Route exact path="/">
                     <Consent />
+	        </Route>
+	        <Route exact path="/instructions">
+	            <Instructions />
 	        </Route>
 	    </Switch>
         </Router>

@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from '../../logo.svg';
 import './consent.css';
+import {
+	Link
+} from "react-router-dom";
+import Instructions from "../instructions/instructions.js";
 
 export default function Consent() {
   return (
@@ -57,10 +61,11 @@ old or older. By clicking the “I agree” button to enter the survey, I indica
 willingness to voluntarily take part in this study.
 </h3>
     
-	  	  	  	  	  
-	  <button class="button">
-	    I agree!
-	  </button>  
+          <Link to="/instructions">	  
+            <button class="button">
+	      I agree!
+	    </button>
+	  </Link>
     </div>
   );
 }
