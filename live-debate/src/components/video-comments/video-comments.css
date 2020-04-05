@@ -1,9 +1,10 @@
 .Wrapper {
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 5%;
+    height: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
-    grid-template-columns: [start] 75% [center] 25% [end]; 
+    grid-template-columns: [start] 60% [center] 40% [end]; 
 
 }
 
@@ -23,6 +24,10 @@
     background-color: #f54242;
     grid-column-start: center;
     grid-column-end: end;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-content: flex-start;
 }
 .button {
     background-color: #49d117;
@@ -32,4 +37,30 @@
     border-radius: 10px;
     float: right;
 }
+
+.comment {
+    width: 100%;
+    display: inline-flex;
+    margin: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+    padding: 10px 15px 10px 15px;
+    height: content;
+    background-color: #b8b6b2;
+}
+
+.user {
+    width: 25%;
+    padding-bottom: 5px;
+}
+
+.time_since {
+    width: 25%;
+    padding-bottom: 5px;
+}
+
+.comment_text {
+    width: 100%;
+
+}
+
 
