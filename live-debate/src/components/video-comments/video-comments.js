@@ -4,6 +4,7 @@ import {
 } from "react-router-dom";
 import "./video-comments.css";
 import $ from "jquery";
+import YouTube from "react-youtube";
 import commentJSON from "../../data/json/comments.json";
 
 export default class VideoComment extends React.Component {
@@ -56,7 +57,14 @@ export default class VideoComment extends React.Component {
             <div>
     	        <div class="Wrapper">
                     <div class="Video">            
+                        <iframe 
+                            width="100%" height="100%" 
+                            src="https://www.youtube.com/embed/tSgP7NIEhLU?controls=0&amp;start=102" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div>
+		    <button class="refresh" onClick={this.addComments}>
+		        Refresh comments
+		    </button>
 	            <div class="SyncComments">
 		        {this.state.comments.map(comment => <Comment
 			    key={this.state.index - this.state.comments.indexOf(comment)}
@@ -68,9 +76,6 @@ export default class VideoComment extends React.Component {
 		        }
                     </div>
 	        </div>
-		<button onClick={this.addComments}>
-		    Refresh comments
-		</button>
 	    </div>
         );
     }
