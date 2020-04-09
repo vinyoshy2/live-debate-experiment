@@ -16,9 +16,9 @@ export default function Instructions() {
 	    </ol>
             <Link to="/pre-survey">
                 <button class="button">
-	            Next
-	        </button>
-	    </Link>
+	                Next
+	            </button>
+	        </Link>
         </div>
   );
 }

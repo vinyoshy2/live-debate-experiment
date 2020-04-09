@@ -3,9 +3,9 @@
     margin-right: 20%;
 }
 
-.button {
+.button-consent {
     background-color: #49d117;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     color: white;
     border-radius: 10px;

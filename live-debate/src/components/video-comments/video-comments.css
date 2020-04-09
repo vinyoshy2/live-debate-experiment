@@ -10,8 +10,7 @@
 }
 
 .Video {
-    width: 100%;
-    height: 100%;
+    vertical-align: center;
     background-color: #4287f5;
     grid-column-start: start;
     grid-column-end: center;
@@ -46,10 +45,24 @@
     grid-row-end: refresh_bot;*/
 }
 
+.button {
+    height: content;
+    width: 100px;
+    background-color: #49d117;
+    grid-column-start: center;
+    grid-column-end: end;
+    text-align: center;
+    margin-right: 10%;
+    vertical-align: middle;
+    float: right;
+    color: white;
+    border-radius: 10px;
+} 
+
 .comment {
     width: 100%;
-    display: inline-flex;
-    margin: 0px 5px 10px 5px;
+    display: flex;
+    margin: 0px 5px 10px 0px;
     flex-wrap: wrap;
     padding: 10px 15px 10px 15px;
     height: content;
@@ -62,13 +75,13 @@
 }
 
 .time_since {
+    padding-left: 50%;
     width: 25%;
     padding-bottom: 5px;
 }
 
 .comment_text {
     width: 100%;
-
 }
 
 

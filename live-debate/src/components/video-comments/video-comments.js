@@ -13,7 +13,8 @@ export default class VideoComment extends React.Component {
 	this.state = {
 	    video_start: 0,
 	    index: 0,
-	    comments: []
+	    comments: [],
+	    complete: true
 	};
 	this.filterJSON = this.filterJSON.bind(this);
 	this.addComments = this.addComments.bind(this);
@@ -52,16 +53,36 @@ export default class VideoComment extends React.Component {
 	return dict;
     }
 
+    addNext() {
+        this.setState({complete: true});
+    }
+
     render() {
+        const videoOptions = {
+	    position: "absolute",
+	    height: "665px",
+	    width: "100% !important",
+            playerVars: {
+                autoplay: 1,
+                controls: 0,
+                fs: 0,
+                modestbranding: 1,
+                start: 102
+            }
+        
+        }
+	let next_button;
+	if (this.state.complete) {
+            next_button = <button class="button"> Next </button>
+	} else {
+            next_button = <div></div>
+	}
         return (
             <div>
     	        <div class="Wrapper">
-                    <div class="Video">            
-                        <iframe 
-                            width="100%" height="100%" 
-                            src="https://www.youtube.com/embed/tSgP7NIEhLU?controls=0&amp;start=102" frameborder="0" 
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                    </div>
+		    <div class="Video">
+	          	<YouTube videoId="tSgP7NIEhLU" opts={videoOptions} onEnd={this.addNext}/>
+		    </div>
 		    <button class="refresh" onClick={this.addComments}>
 		        Refresh comments
 		    </button>
@@ -71,11 +92,12 @@ export default class VideoComment extends React.Component {
                             user={comment["user"]}
 			    text={comment["text"]}
 			    activation_time={comment["activation_time"]}
-			    video_start={this.state.video_start}
-			    />)
-		        }
+			    video_start={this.state.video_start}/>)
+			}
                     </div>
+		    
 	        </div>
+		    {next_button}
 	    </div>
         );
     }

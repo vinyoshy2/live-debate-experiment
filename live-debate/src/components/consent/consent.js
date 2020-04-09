@@ -62,7 +62,7 @@ willingness to voluntarily take part in this study.
 </h3>
     
           <Link to="/instructions">	  
-            <button class="button">
+            <button class="button-consent">
 	      I agree!
 	    </button>
 	  </Link>
