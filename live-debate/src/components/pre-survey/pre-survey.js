@@ -12,7 +12,7 @@ export default class Presurvey extends React.Component {
             return (
                 <div class="Presurvey">
                     <iframe src="https://qtrial2019q3az1.az1.qualtrics.com/jfe/form/SV_82EPvRAnXArHw5n?where=A" width="1280px" height="720px"></iframe>
-    	            <Link to="/video">
+    	            <Link to="/second-instructions">
                         <button class="button-pre">
 	                    Next
                         </button>

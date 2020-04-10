@@ -1,0 +1,19 @@
+.Video-alone {
+    margin: 25% 20% 25% 0%;  
+    background-color: #4287f5;
+}
+
+.button {
+    height: content;
+    width: 100px;
+    background-color: #49d117;
+    grid-column-start: center;
+    grid-column-end: end;
+    text-align: center;
+    margin-right: 10%;
+    vertical-align: middle;
+    float: right;
+    color: white;
+    border-radius: 10px;
+} 
+
