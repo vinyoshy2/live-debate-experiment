@@ -7,7 +7,7 @@ import $ from "jquery";
 import YouTube from "react-youtube";
 import commentJSON from "../../data/json/comments.json";
 
-export default class VideoComment extends React.Component {
+export default class VideoComments extends React.Component {
     constructor(props) {
         super(props);
 	this.state = {

@@ -40,7 +40,7 @@ export default class Video extends React.Component {
         }
 	let next_button;
 	if (this.state.complete) {
-            next_button = <Link to="/comments"><button class="button"> Next </button></Link>
+            next_button = <Link to="/comments"><button class="button-video"> Next </button></Link>
 	} else {
             next_button = <div></div>
 	}

@@ -6,6 +6,7 @@ import Instructions from "./components/instructions/instructions.js";
 import Presurvey from "./components/pre-survey/pre-survey.js";
 import SecondInstructions from "./components/second-instructions/second-instructions.js";
 import Video from "./components/video/video.js";
+import Comments from "./components/comments/comments.js";
 import VideoComments from "./components/video-comments/video-comments.js";
 import EndSlide from "./components/end-slide/end-slide.js";
 import {
@@ -40,13 +41,16 @@ export default class App() extends React.Component {
 	                <Presurvey mode={this.state.mode}/>
 	            </Route>
 		    <Route exact path="/second-instructions">
-		        <SecondInstructions mode={this.state.mode}/>
+		        <SecondInstructions mode={this.state.mode/>
 		    </Route>
 	            <Route exact path="/video-comments">
 	                <VideoComments />
 	            </Route>
 		    <Route exact path="/video">
 		        <Video />
+		    </Route>
+		    </Route exact path="/comments">
+			<Comments />
 		    </Route>
 	            <Route exact path="/post-survey">
 	                <Postsurvey mode={this.state.mode}/>
