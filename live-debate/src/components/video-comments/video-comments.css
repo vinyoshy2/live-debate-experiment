@@ -45,9 +45,8 @@
     grid-row-end: refresh_bot;*/
 }
 
-.button {
-    height: content;
-    width: 100px;
+.button-vc {
+    padding: 15px 32px;
     background-color: #49d117;
     grid-column-start: center;
     grid-column-end: end;

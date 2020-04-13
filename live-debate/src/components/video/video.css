@@ -1,14 +1,10 @@
 .Video-alone {
-    margin: 25% 20% 25% 0%;  
-    background-color: #4287f5;
+    text-align: center; 
 }
 
 .button-video {
-    height: content;
-    width: 100px;
+    padding: 15px 32px;
     background-color: #49d117;
-    grid-column-start: center;
-    grid-column-end: end;
     text-align: center;
     margin-right: 10%;
     vertical-align: middle;

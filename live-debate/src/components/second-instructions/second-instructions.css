@@ -1,6 +1,10 @@
 .SecondInstructions {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.InstWrapper {
+    display: flex;
 }
 
 .SecondInstructions li {
@@ -15,4 +19,10 @@
     border-radius: 10px;
     float: right;
 }
+
+#example {
+    height: 400px;
+ /*   width: 100%;*/
+
+} 
 

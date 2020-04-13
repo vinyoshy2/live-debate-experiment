@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
 	Link
 } from "react-router-dom";
 import "./video.css";
-import $ from "jquery";
 import YouTube from "react-youtube";
 
 export default class Video extends React.Component {
     constructor(props) {
         super(props);
 	this.state = {
-	    video-start: 0,
+	    video_start: 0,
 	    complete: true
 	};
 	this.addNext = this.addNext.bind(this);
@@ -27,14 +26,12 @@ export default class Video extends React.Component {
 
     render() {
         const videoOptions = {
-	    position: "absolute",
-	    width: "100% !important",
             playerVars: {
                 autoplay: 1,
                 controls: 0,
                 fs: 0,
                 modestbranding: 1,
-                start: 102
+                start: 0
             }
         
         }
@@ -45,12 +42,10 @@ export default class Video extends React.Component {
             next_button = <div></div>
 	}
         return (
-            <div>
-		    <div class="Video-alone">
-	          	<YouTube videoId="tSgP7NIEhLU" opts={videoOptions} onEnd={this.addNext}/>
-		    </div>
+		<div class="Video-alone">
+	            <YouTube videoId="tSgP7NIEhLU" opts={videoOptions} onEnd={this.addNext}/>
 		    {next_button}
-	    </div>
+		</div>
         );
     }
 }

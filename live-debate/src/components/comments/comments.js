@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
 	Link
 } from "react-router-dom";
-import "./video-comments.css";
-import $ from "jquery";
-import YouTube from "react-youtube";
+import "./comments.css";
 import commentJSON from "../../data/json/comments.json";
 
 export default class Comments extends React.Component {
@@ -40,9 +38,6 @@ export default class Comments extends React.Component {
 
 
 class CommentAsync extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <div class="comment_async">

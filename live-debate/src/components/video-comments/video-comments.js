@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
 	Link
 } from "react-router-dom";
 import "./video-comments.css";
-import $ from "jquery";
 import YouTube from "react-youtube";
 import commentJSON from "../../data/json/comments.json";
 
@@ -19,6 +18,7 @@ export default class VideoComments extends React.Component {
 	this.filterJSON = this.filterJSON.bind(this);
 	this.addComments = this.addComments.bind(this);
 	this.addAndReturn = this.addAndReturn.bind(this);
+	this.addNext = this.addNext.bind(this);
     }
     
     componentDidMount() {
@@ -45,7 +45,6 @@ export default class VideoComments extends React.Component {
     addComments() {
         var new_comments = this.filterJSON(commentJSON, this.state.video_start);
 	this.setState({comments: new_comments.concat(this.state.comments)});
-	console.log($());
     }
     
     addAndReturn(dict, key, val) {
@@ -67,13 +66,13 @@ export default class VideoComments extends React.Component {
                 controls: 0,
                 fs: 0,
                 modestbranding: 1,
-                start: 102
+                start: 0
             }
         
         }
 	let next_button;
 	if (this.state.complete) {
-            next_button = <Link to="/post-survey"><button class="button"> Next </button></Link>
+            next_button = <Link to="/post-survey"><button class="button-vc"> Next </button></Link>
 	} else {
             next_button = <div></div>
 	}
