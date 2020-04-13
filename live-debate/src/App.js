@@ -10,7 +10,7 @@ import VideoComments from "./components/video-comments/video-comments.js";
 import Postsurvey from "./components/post-survey/post-survey.js";
 import EndSlide from "./components/end-slide/end-slide.js";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
