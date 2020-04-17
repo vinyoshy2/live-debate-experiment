@@ -53,12 +53,11 @@ export default function Consent() {
 	  
 	  <h2>What if I have questions?</h2>
 	  <p>We encourage you to ask questions. If you have any questions about the research study, please contact: Vinay Koshy at vkoshy2@illinois.edu.</p>
-	  {/*<p>We encourage you to ask questions.  If you have any questions about the research study itself, please contact:  Karrie Karahalios at kkarahal@illinois.edu or call (217) 265-6841.  If you feel you have not been treated according to the descriptions in this form, or if you have any questions about your rights as a research subject, including questions, concerns, complaints, or to offer input, you may call the Office for the Protection of Research Subjects (OPRS) at 217-333-2670 or e-mail OPRS at irb@illinois.edu</p> */}
+	  {/* <p>We encourage you to ask questions.  If you have any questions about the research study itself, please contact:  Karrie Karahalios at kkarahal@illinois.edu or call (217) 265-6841.  If you feel you have not been treated according to the descriptions in this form, or if you have any questions about your rights as a research subject, including questions, concerns, complaints, or to offer input, you may call the Office for the Protection of Research Subjects (OPRS) at 217-333-2670 or e-mail OPRS at irb@illinois.edu</p>*/}
 	  
       <h3>I have read and understand the above consent form. I certify that I am 18 years
 old or older. By clicking the “I agree” button to enter the survey, I indicate my 
-willingness to voluntarily take part in this study.
-</h3>
+willingness to voluntarily take part in this study.</h3>
     
           <Link to="/instructions">	  
             <button class="button-consent">

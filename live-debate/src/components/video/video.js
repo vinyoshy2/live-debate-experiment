@@ -10,7 +10,7 @@ export default class Video extends React.Component {
         super(props);
 	this.state = {
 	    video_start: 0,
-	    complete: true
+	    complete: false
 	};
 	this.addNext = this.addNext.bind(this);
     }

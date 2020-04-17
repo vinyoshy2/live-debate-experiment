@@ -13,7 +13,7 @@ export default class VideoComments extends React.Component {
 	    video_start: 0,
 	    index: 0,
 	    comments: [],
-	    complete: true
+	    complete: false
 	};
 	this.filterJSON = this.filterJSON.bind(this);
 	this.addComments = this.addComments.bind(this);
