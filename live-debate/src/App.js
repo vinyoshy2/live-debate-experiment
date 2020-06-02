@@ -20,7 +20,8 @@ export default class App extends React.Component {
     constructor(props) {
         super(props);
 	this.state = {
-            mode: 0
+            mode: 0,
+	    bias: 0	
 	};
     }
     componentDidMount() {
@@ -30,6 +31,12 @@ export default class App extends React.Component {
 	     sessionStorage.setItem("mode", attempt);
 	}
         this.setState({mode: attempt});
+	var attempt_bias = sessionStorage.getItem("bias");
+	if (attempt_bias == null) {
+	     attempt_bias = Math.round(Math.random());
+	     sessionStorage.setItem("bias", attempt_bias);
+	}
+        this.setState({bias: attempt_bias});
     }
     render() {
         return (
@@ -42,22 +49,22 @@ export default class App extends React.Component {
 	                <Instructions mode={this.state.mode} />
 	            </Route>
 	            <Route exact path="/pre-survey">
-	                <Presurvey mode={this.state.mode}/>
+	                <Presurvey mode={this.state.mode} bias={this.state.bias}/>
 	            </Route>
 		    <Route exact path="/second-instructions">
 		        <SecondInstructions mode={this.state.mode}/>
 		    </Route>
 	            <Route exact path="/video-comments">
-	                <VideoComments />
+	                <VideoComments bias={this.state.bias}/>
 	            </Route>
 		    <Route exact path="/video">
 		        <Video />
 		    </Route>
 		    <Route exact path="/comments">
-			<Comments />
+			<Comments bias={this.state.bias}/>
 		    </Route>
 	            <Route exact path="/post-survey">
-	                <Postsurvey mode={this.state.mode}/>
+	                <Postsurvey mode={this.state.mode} bias={this.state.bias}/>
 		    </Route>
 		    <Route exact path="/end-slide">
 		        <EndSlide />

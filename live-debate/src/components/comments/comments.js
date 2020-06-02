@@ -4,12 +4,18 @@ import {
 } from "react-router-dom";
 import "./comments.css";
 import commentJSON from "../../data/json/comments.json";
+import commentpoJSON from "../../data/json/comments_PO.json";
 
 export default class Comments extends React.Component {
     constructor(props) {
         super(props);
+	if (this.props.bias == 0) {
+	    comJSON = commentJSON;
+	} else {
+            comJSON = commentpoJSON;
+	}
 	this.state = {
-	    comments: commentJSON["entries"],
+	    comments: comJSON["entries"],
 	};
     }
     

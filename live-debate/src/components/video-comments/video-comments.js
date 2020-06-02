@@ -5,14 +5,21 @@ import {
 import "./video-comments.css";
 import YouTube from "react-youtube";
 import commentJSON from "../../data/json/comments.json";
+import commentpoJSON from "../../data/json/comments_PO.json";
 
 export default class VideoComments extends React.Component {
     constructor(props) {
         super(props);
+	if (this.props.bias == 0) {
+            comJSON = commentJSON;
+	} else {
+            comJSON = commentpoJSON;
+	}
 	this.state = {
 	    video_start: 0,
 	    index: 0,
 	    comments: [],
+	    comJSON: comJSON,
 	    complete: false
 	};
 	this.filterJSON = this.filterJSON.bind(this);
@@ -43,7 +50,7 @@ export default class VideoComments extends React.Component {
     }
 
     addComments() {
-        var new_comments = this.filterJSON(commentJSON, this.state.video_start);
+        var new_comments = this.filterJSON(this.state.comJSON, this.state.video_start);
 	this.setState({comments: new_comments.concat(this.state.comments)});
     }
     
