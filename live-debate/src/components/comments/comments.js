@@ -9,9 +9,8 @@ import commentpoJSON from "../../data/json/comments_PO.json";
 export default class Comments extends React.Component {
     constructor(props) {
         super(props);
-	if (this.props.bias == 0) {
-	    comJSON = commentJSON;
-	} else {
+	var comJSON = commentJSON;
+	if (this.props.bias == 1) {
             comJSON = commentpoJSON;
 	}
 	this.state = {

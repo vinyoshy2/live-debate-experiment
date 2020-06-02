@@ -10,6 +10,7 @@ import commentpoJSON from "../../data/json/comments_PO.json";
 export default class VideoComments extends React.Component {
     constructor(props) {
         super(props);
+	var comJSON;
 	if (this.props.bias == 0) {
             comJSON = commentJSON;
 	} else {
