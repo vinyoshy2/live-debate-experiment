@@ -1,0 +1,28 @@
+.SecondInstructions {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.InstWrapper {
+    display: flex;
+}
+
+.SecondInstructions li {
+    margin: 0 0 30px 0;
+}
+
+.button-second {
+    background-color: #49d117;
+    padding: 15px 32px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    float: right;
+}
+
+#example {
+    height: 400px;
+ /*   width: 100%;*/
+
+} 
+

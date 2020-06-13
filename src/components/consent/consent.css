@@ -1,0 +1,14 @@
+.Consent {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.button-consent {
+    background-color: #49d117;
+    padding: 15px 15px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    float: right;
+}
+
