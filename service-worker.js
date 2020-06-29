@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/live-debate/precache-manifest.13fca5b406428f61cbc7991d7deceaa5.js"
+  "/live-debate/precache-manifest.1f8fe8e3f24ac8008595686c8b68449c.js"
 );
 
 self.addEventListener('message', (event) => {
