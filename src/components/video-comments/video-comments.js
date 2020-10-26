@@ -27,6 +27,14 @@ export default class VideoComments extends React.Component {
 	this.addComments = this.addComments.bind(this);
 	this.addAndReturn = this.addAndReturn.bind(this);
 	this.addNext = this.addNext.bind(this);
+	var y = 0;
+        var intervalID = setInterval(
+		() => {
+                    this.addComments();
+                    if (++y == 133) {
+                        clearInterval(intervalID);
+	            }
+	        }, 5000);
     }
     
     componentDidMount() {

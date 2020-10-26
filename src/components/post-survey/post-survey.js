@@ -13,7 +13,7 @@ export default class Postsurvey extends React.Component{
 	}
         return (
                 <div class="Postsurvey">
-                    <iframe src={"https://illinoisaces.co1.qualtrics.com/jfe/form/SV_6tWB2UCM7OLmYOp?where="+where+"&bias="+bias} width="1280px" height="720px"></iframe>
+                    <iframe src={"https://illinoisaces.co1.qualtrics.com/jfe/form/SV_6tWB2UCM7OLmYOp?where="+where+"&bias="+bias} width="100%" height="100%"></iframe>
 		    <h2>Please collect your post survey code before continuing. Make sure to hit the red arrow inside the survey box above.</h2>
 	            <Link to="/end-slide">
                         <button class="button-post">
