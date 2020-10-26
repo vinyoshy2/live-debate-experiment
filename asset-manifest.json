@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/live-debate/static/css/main.b0b638c3.chunk.css",
-    "main.js": "/live-debate/static/js/main.25bc83f8.chunk.js",
-    "main.js.map": "/live-debate/static/js/main.25bc83f8.chunk.js.map",
+    "main.css": "/live-debate/static/css/main.d29dcab9.chunk.css",
+    "main.js": "/live-debate/static/js/main.fd993354.chunk.js",
+    "main.js.map": "/live-debate/static/js/main.fd993354.chunk.js.map",
     "runtime-main.js": "/live-debate/static/js/runtime-main.f1f668ce.js",
     "runtime-main.js.map": "/live-debate/static/js/runtime-main.f1f668ce.js.map",
     "static/js/2.01f7e89c.chunk.js": "/live-debate/static/js/2.01f7e89c.chunk.js",
     "static/js/2.01f7e89c.chunk.js.map": "/live-debate/static/js/2.01f7e89c.chunk.js.map",
     "index.html": "/live-debate/index.html",
-    "precache-manifest.1f8fe8e3f24ac8008595686c8b68449c.js": "/live-debate/precache-manifest.1f8fe8e3f24ac8008595686c8b68449c.js",
+    "precache-manifest.58cf6e49722bb06a1285ee42975dd9ad.js": "/live-debate/precache-manifest.58cf6e49722bb06a1285ee42975dd9ad.js",
     "service-worker.js": "/live-debate/service-worker.js",
-    "static/css/main.b0b638c3.chunk.css.map": "/live-debate/static/css/main.b0b638c3.chunk.css.map",
+    "static/css/main.d29dcab9.chunk.css.map": "/live-debate/static/css/main.d29dcab9.chunk.css.map",
     "static/js/2.01f7e89c.chunk.js.LICENSE.txt": "/live-debate/static/js/2.01f7e89c.chunk.js.LICENSE.txt",
     "static/media/candidates.png": "/live-debate/static/media/candidates.1b5d1158.png",
     "static/media/interface_screenie_highlight.png": "/live-debate/static/media/interface_screenie_highlight.c3c81752.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f1f668ce.js",
     "static/js/2.01f7e89c.chunk.js",
-    "static/css/main.b0b638c3.chunk.css",
-    "static/js/main.25bc83f8.chunk.js"
+    "static/css/main.d29dcab9.chunk.css",
+    "static/js/main.fd993354.chunk.js"
   ]
 }
