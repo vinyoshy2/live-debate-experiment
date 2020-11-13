@@ -3,7 +3,7 @@ import {
 	Link
 } from "react-router-dom";
 import "./second-instructions.css"
-import screenshot from "../../data/images/interface_screenie_highlight.png";
+import screenshot from "../../data/images/interface_screenie.png";
 import candidates from "../../data/images/candidates.png";
 
 export default class SecondInstructions extends React.Component {
