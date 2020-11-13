@@ -31,7 +31,8 @@ export default class Video extends React.Component {
                 controls: 0,
                 fs: 0,
                 modestbranding: 1,
-                start: 0
+                start: 0,
+                end: 535
             }
         
         }
