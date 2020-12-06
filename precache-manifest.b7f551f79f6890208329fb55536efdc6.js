@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b534372a9fe48596214d92a87afb675",
+    "revision": "1186cff58847728956be42c1000122bc",
     "url": "/live-debate/index.html"
   },
   {
-    "revision": "a281ac8f88b35516f595",
+    "revision": "f5fe37cc571785459f47",
     "url": "/live-debate/static/css/main.d29dcab9.chunk.css"
   },
   {
-    "revision": "d1774c643a00a38d7388",
-    "url": "/live-debate/static/js/2.01f7e89c.chunk.js"
+    "revision": "248144137925b1e485e6",
+    "url": "/live-debate/static/js/2.0c544994.chunk.js"
   },
   {
     "revision": "8a9adb48f7af2062183ac70b4922c4ef",
-    "url": "/live-debate/static/js/2.01f7e89c.chunk.js.LICENSE.txt"
+    "url": "/live-debate/static/js/2.0c544994.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a281ac8f88b35516f595",
-    "url": "/live-debate/static/js/main.f2703e15.chunk.js"
+    "revision": "f5fe37cc571785459f47",
+    "url": "/live-debate/static/js/main.6f8f5ba4.chunk.js"
   },
   {
     "revision": "090940d0588cfabb54ff",
