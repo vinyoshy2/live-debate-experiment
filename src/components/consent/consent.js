@@ -16,10 +16,10 @@ export default function Consent() {
 	      <li>A pre-survey in which you will provide some demographic information, and answer a few questions about your political views and enagement level. (~1 minutes)</li>
 	      <li>Watching a 12-minute debate clip and read comments posted about that clip (~10-15 minutes)</li>
 	      <li>A post-survey containing questions about your opinions on content expressed in the video/associated comments (~5 minutes)</li>
-	      <li>You will receive 2 passwords to submit on Amazon Mechanical Turk in order to be paid for completing this study</li>
+	      <li>After completing these components, you will receive an 8-digit completion code to submit on Prolific</li>
 	  </ol>	  
 	  
-      and your participation will last around 20 minutes. Risks related to this research include only those normally encountered in your daily life; benefits related to this research include a better understand how policy positions can better be conveyed to Americans, leading to a more informed populace. The alternative to participating in this study is to simply return the HIT on Mturk.</p>
+      and your participation will last around 20 minutes. Risks related to this research include only those normally encountered in your daily life; benefits related to this research include a better understand how policy positions can better be conveyed to Americans, leading to a more informed populace. The alternative to participating in this study is to return the task on Prolific.</p>
 
 	  <h2>What is the purpose of this study?</h2>  
 	  <p>This is a research study to be conducted at the Siebel Center at University of Illinois.  We are inviting you to participate in this research study because you have indicated that you have watched a Democratic debate some time in the last year.</p>
@@ -38,7 +38,7 @@ export default function Consent() {
 	  <p>The feedback received from the study will be used to understand how policy positions can better be conveyed to Americans, leading to a more informed populace</p>
 	  
 	  <h2>Will I be paid for participating?</h2>
-	  <p>You will be paid $5.00 for participating in this study.</p>
+	  <p>You will be paid $3.60 for participating in this study.</p>
 	  
 	  <h2>Will it cost me anything to be in this study?</h2>
 	  <p>There are no costs for being in this study other than your time.</p>

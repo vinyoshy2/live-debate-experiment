@@ -16,7 +16,8 @@ import {
 } from "react-router-dom";
 
 export default class App extends React.Component {
-
+    //mode: 0 = Single screen, 1 = Dual screen
+    //bias: 0 = M4A, 1 = PO
     constructor(props) {
         super(props);
 	this.state = {

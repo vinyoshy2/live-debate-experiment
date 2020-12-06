@@ -4,6 +4,7 @@ import "./end-slide.css"
 export default function EndSlide() {
     return (
         <div class="EndSlide">
+	    <h1> Please enter the following completion code in Prolific: 81231449</h1>
             <h2>Dual Screen Bias Debrief Form</h2>
             <p>Thank you for participating in this study!  We hope you enjoyed the experience.  This form provides background about our research to help you learn more about why we are doing this study. Please feel free to ask any questions or to comment on any aspect of the study.</p>
             <p>You have just participated in a research study conducted by Karrie Karahalios and Vinay Koshy at the University of Illinois at Urbana Champaign.</p>
