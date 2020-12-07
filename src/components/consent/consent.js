@@ -14,7 +14,7 @@ export default function Consent() {
       <p>You are being asked to participate in a voluntary research study. The purpose of this study is to understand how effectively politicians are able to communicate their positions on policy. Participating in this study will involve:
       <ol>
 	      <li>A pre-survey in which you will provide some demographic information, and answer a few questions about your political views and enagement level. (~1 minutes)</li>
-	      <li>Watching a 12-minute debate clip and read comments posted about that clip (~10-15 minutes)</li>
+	      <li>Watching a 9-minute debate clip and read comments posted about that clip (~10-15 minutes)</li>
 	      <li>A post-survey containing questions about your opinions on content expressed in the video/associated comments (~5 minutes)</li>
 	      <li>After completing these components, you will receive an 8-digit completion code to submit on Prolific</li>
 	  </ol>	  
@@ -22,7 +22,7 @@ export default function Consent() {
       and your participation will last around 20 minutes. Risks related to this research include only those normally encountered in your daily life; benefits related to this research include a better understand how policy positions can better be conveyed to Americans, leading to a more informed populace. The alternative to participating in this study is to return the task on Prolific.</p>
 
 	  <h2>What is the purpose of this study?</h2>  
-	  <p>This is a research study to be conducted at the Siebel Center at University of Illinois.  We are inviting you to participate in this research study because you have indicated that you have watched a Democratic debate some time in the last year.</p>
+	  <p>This is a research study to be conducted at the Siebel Center at University of Illinois.</p>
 	  <p>The study aims to understand how effectively politicians are able to communicate their positions on policy. If you agree to participate, you will be asked to sign this informed consent document indicating that you have read the following form and have been given the goals of this study.</p>
 	  
 	  <h2>How many people will participate in this study?</h2>
