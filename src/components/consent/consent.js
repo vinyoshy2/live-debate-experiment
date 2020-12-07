@@ -38,7 +38,7 @@ export default function Consent() {
 	  <p>The feedback received from the study will be used to understand how policy positions can better be conveyed to Americans, leading to a more informed populace</p>
 	  
 	  <h2>Will I be paid for participating?</h2>
-	  <p>You will be paid $3.60 for participating in this study.</p>
+	  <p>You will be paid $3.70 for participating in this study.</p>
 	  
 	  <h2>Will it cost me anything to be in this study?</h2>
 	  <p>There are no costs for being in this study other than your time.</p>
