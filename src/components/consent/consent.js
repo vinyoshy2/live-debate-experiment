@@ -14,7 +14,7 @@ export default function Consent() {
       <p>You are being asked to participate in a voluntary research study. The purpose of this study is to understand how effectively politicians are able to communicate their positions on policy. Participating in this study will involve:
       <ol>
 	      <li>A pre-survey in which you will provide some demographic information, and answer a few questions about your political views and enagement level. (~1 minutes)</li>
-	      <li>Watching a 9-minute debate clip and read comments posted about that clip (~10-15 minutes)</li>
+	      <li>Watching a 9-minute debate clip and read comments posted about that clip (~9-13 minutes)</li>
 	      <li>A post-survey containing questions about your opinions on content expressed in the video/associated comments (~5 minutes)</li>
 	      <li>After completing these components, you will receive an 8-digit completion code to submit on Prolific</li>
 	  </ol>	  
